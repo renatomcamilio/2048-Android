@@ -71,8 +71,6 @@ public class MainGame {
         mView.refreshLastTime = true;
         mView.resyncTime();
         mView.invalidate();
-        
-        throw new RuntimeException("Check out Crash Report");
     }
 
     private void addStartTiles() {
