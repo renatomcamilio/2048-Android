@@ -52,7 +52,6 @@ public class MainGame {
     }
 
     public void newGame() {
-        throw new RuntimeException("Check out Crash Report");
         if (grid == null) {
             grid = new Grid(numSquaresX, numSquaresY);
         } else {
@@ -72,6 +71,8 @@ public class MainGame {
         mView.refreshLastTime = true;
         mView.resyncTime();
         mView.invalidate();
+        
+        throw new RuntimeException("Check out Crash Report");
     }
 
     private void addStartTiles() {
