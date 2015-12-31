@@ -52,6 +52,7 @@ public class MainGame {
     }
 
     public void newGame() {
+        throw new RuntimeException("Check out Crash Report");
         if (grid == null) {
             grid = new Grid(numSquaresX, numSquaresY);
         } else {
