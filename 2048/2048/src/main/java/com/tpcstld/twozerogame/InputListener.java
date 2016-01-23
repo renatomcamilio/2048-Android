@@ -128,7 +128,7 @@ class InputListener implements View.OnTouchListener {
                         } else {
                             mView.game.newGame();
                         }
-                        throw new RuntimeException("Check out Crash Report");
+                        throw new RuntimeException("Check out buddybuild Crash Reporting!");
                     } else if (iconPressed(mView.sXUndo, mView.sYIcons)) {
                         mView.game.revertUndoState();
                     } else if (isTap(2) && inRange(mView.startingX, x, mView.endingX)
