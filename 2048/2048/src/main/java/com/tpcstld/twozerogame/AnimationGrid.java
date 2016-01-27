@@ -9,6 +9,7 @@ public class AnimationGrid {
     private int activeAnimations = 0;
     private boolean oneMoreFrame = false;
 
+    @SuppressWarnings("unchecked")
     public AnimationGrid(int x, int y) {
         field = new ArrayList[x][y];
 
