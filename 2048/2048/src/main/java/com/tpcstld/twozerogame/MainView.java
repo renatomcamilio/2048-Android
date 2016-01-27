@@ -13,7 +13,6 @@ import android.view.View;
 
 import java.util.ArrayList;
 
-@SuppressWarnings("deprecation")
 public class MainView extends View {
 
     //Internal Constants
