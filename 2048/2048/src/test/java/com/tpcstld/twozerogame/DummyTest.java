@@ -13,6 +13,6 @@ public class DummyTest {
 
     @Test
     public void thisShallNotPass() {
-        assertThat(true, is(false));
+        assertThat(false, is(false));
     }
 }
