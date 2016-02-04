@@ -11,7 +11,7 @@ import static org.junit.Assert.assertThat;
 public class DummyTest2 {
     @Test
     public void thisWillNotPass() {
-        assertThat(false, is(false));
+        assertThat(true, is(false));
     }
 
     @Test
